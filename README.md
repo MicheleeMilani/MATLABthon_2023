@@ -5,6 +5,9 @@
 # Create Your Own Fitness Tracker with MATLAB&reg; Online&trade; and MATLAB&reg; Mobile&trade;
 This repository contains code and instructions to help you create your own fitness tracker with MATLAB Online and MATLAB Mobile for a Hackathon!
 
+### Starter.mlx
+A starting live script that explains how to collect and use the data from the MATLAB mobile application-
+
 ### Instructions.pdf
 This is a guide with detailed steps to help your team use MATLAB Mobile and MATLAB Online to create your fitness tracker. We have also included a simple example that you can use to start with or draw inspiration from as you create your own solution to this challenge!
 
