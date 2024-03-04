@@ -9,7 +9,7 @@
 %% Collecting Data
 
 % Load data from .mat file (called DATA)
-load('DATA.mat')
+load('corsetta_simo_13_06.mat')
 
 % Extract position data
 lat = Position.latitude;
@@ -96,12 +96,13 @@ for i = 1: (length(lat)-1)
     lon1 = lon(i); % First longitude
     lon2 = lon(i+1); % Second longitude
 
-    [diff, az] = distance(lat1, lon1, lat2, lon2);
+    diff = distance(lat1, lon1, lat2, lon2);
     dis = (diff/360) * earthCirc;
 
     totaldis = totaldis + dis; % kilometers 
 
 end
+% totaldis = 0.405; % da problemi distance :(
 
 height = (height*1e-2)/0.3048; % [ft]
 
